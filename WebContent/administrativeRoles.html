@@ -1,0 +1,103 @@
+
+<div class = "contianer">
+		<div class = "row" style="margin-top: 20px;">
+			Add Global Privileges
+		</div>
+		<div class = "row" style="margin-top: 20px;">
+			<div class = "col-md-offset-1">
+			
+			<div class="checkbox-inline">
+		      <input type="checkbox" name = "glob_add_alter" value = "ALTER"> ALTER
+			</div>
+			
+			<div class="checkbox-inline">
+	
+			   <input type="checkbox" name = "glob_add_drop" value = "DROP"> DROP
+			   
+			</div>
+			
+			<div class="checkbox-inline">
+		
+			    <input type="checkbox" name = "glob_add_delete" value = "DELETE"> DELETE
+			
+			</div>
+	
+			<div class="checkbox-inline">
+				<input type="checkbox" name = "glob_add_create_user" name = "CREATE USER"> CREATE USER
+		
+			</div>
+			
+			
+			<div class="checkbox-inline">
+				<input type="checkbox" name = "glob_add_execute" value = "EXECUTE"> EXECUTE
+			</div>
+			<div class="checkbox-inline">
+		
+		      <input type="checkbox" name = "glob_add_trigger" value = "TRIGGER"> TRIGGER
+		
+			</div>
+			<div class="checkbox-inline">
+		
+		      <input type="checkbox" name = "glob_add_update" value = "UPDATE"> UPDATE
+		
+			</div>
+			
+			<div class="checkbox-inline">
+		
+		      <input type="checkbox" name = "glob_add_all" value = "All"> GRANT ALL
+		
+			</div>
+			
+			
+		</div>
+	</div>
+	<div class = "row" style="margin-top: 85px;">
+			Remove Global Privileges
+	</div>
+	<div class = "row" style="margin-top: 45px;">
+		<div class = "col-md-11 col-md-offset-1">
+		
+			<div class="checkbox-inline">
+				<input type="checkbox" name = "glob_rm_alter" value = "ALTER"> ALTER
+			</div>
+			
+			<div class="checkbox-inline">
+			    <input type="checkbox" name = "glob_rm_drop" value = "DROP"> DROP
+			</div>
+			
+			<div class="checkbox-inline">
+				<input type="checkbox" name = "glob_rm_delete" value = "DELETE"> DELETE
+			</div>
+		<!-- SERVER ADMINISTRATION -->
+			<div class="checkbox-inline">
+				<input type="checkbox" name = "glob_rm_create_user" value = "CREATE USER"> CREATE USER
+			</div>
+			<div class="checkbox-inline">
+		
+		      <input type="checkbox" name = "glob_rm_trigger" value = "TRIGGER"> TRIGGER
+		
+			</div>
+			<div class="checkbox-inline">
+		
+		      <input type="checkbox" name = "glob_rm_update" value = "UPDATE"> UPDATE
+		
+			</div>
+			
+			<div class="checkbox-inline">
+		
+		      <input type="checkbox" name = "glob_rm_all" value = "ALL"> GRANT ALL
+		
+			</div>
+			
+		</div>
+	</div>
+</div>
+<div class = "row" style="margin-top: 25%;">
+			<div class = "col-md-3">
+				<input type="submit" value="Submit" class = "btn btn-default">
+			</div>
+			
+			<div class = "col-md-3">
+				<a href="http://localhost:8080/CS122BP3/servlet/AllPrivileges" class = "btn btn-default">Show All</a>
+			</div>
+		</div>

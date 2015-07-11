@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+.form-fix{
+	background-color:#537799;
+	color: #fefefe;
+	font-size:18px;
+	width: 25%;
+	border: 1px solid transparent;	
+}
+.box{
+	height:500px;
+	background-color:#989898 ;
+}
+.select-label{
+	position: relative;
+	top:60px;
+	font-size: 16px;
+}
+tr.highlight   
+{    
+   background-color: #063774;   
+   color: White; 
+}
+.myCustomClass{
+    border-color: #FFFFFF;
+    background-color: #5F7386;
+    max-width: 480px;
+    height: 55%;
+   	color: #FFFFFF;  
+}
+#movie-container{
+	width: 480px;
+}
+.dropdown-menu{
+	width: 200px;
+	max-height: 270px;
+	overflow-y:auto;
+}
+.dropdown-menu > li > a{
+	font-size: 13px;
+}
+.dropdown-menu{
+	background-color: 5f6e7d;
+	max-width: 200px;
+    overflow-x: hidden;
+}
